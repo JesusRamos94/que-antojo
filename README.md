@@ -14,7 +14,7 @@ Este es un proyecto de una tienda online de postres dulces y salados, desarrolla
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/JesusRamos94/que-antojo.git
-   cd tienda-postres
+   cd que-antojo
    ```
 
 2. Instala las dependencias:
