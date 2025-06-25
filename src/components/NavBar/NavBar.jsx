@@ -1,30 +1,22 @@
-import React from 'react'
-import { CartWidget } from '../CartWidget/CartWidget'
+import { Link } from 'react-router-dom';
+import './NavBar.scss';
 
-import './index.scss'
-
-
-
-export const NavBar = () => {
-
+export const NavBar = ({ cartQuantity }) => {
   return (
-    <>
-    <div className='navbar'>
-      <div>
-        <h1 className='navbar-title'>Que antojo</h1>
+    <nav className='navbar'>
+      <div className='navbar__logo'>
+        <Link to="/">Qué Antojo 🍰</Link>
       </div>
-
-    <div className="navbar-categories" >  
-       <ul >
-          <li>Salado</li>
-          <li>Dulce</li>
-        </ul>
-    </div>
-     
-      <div className='navbar-widget'>
-        <CartWidget/>
+      <ul className='navbar__menu'>
+        <li><Link to="/">Todos</Link></li>
+        <li><Link to="/category/dulce">Dulces</Link></li>
+        <li><Link to="/category/salado">Salados</Link></li>
+      </ul>
+      <div className='navbar__cart'>
+      <Link to="/cart" className="cart-link">
+        🛒 <span className='navbar__cart-count'>{cartQuantity}</span>
+      </Link>
       </div>
-    </div>
-    </>
-  )
-}
+    </nav>
+  );
+};

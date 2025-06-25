@@ -1,0 +1,22 @@
+.item-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.item-detail img {
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.item-detail button {
+  margin-top: 1rem;
+  background: #d46a6a;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

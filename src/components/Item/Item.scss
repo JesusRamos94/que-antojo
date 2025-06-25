@@ -1,0 +1,26 @@
+.item-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.item-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.item-link {
+  margin-top: 0.5rem;
+  background: #d46a6a;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  text-decoration: none;
+}

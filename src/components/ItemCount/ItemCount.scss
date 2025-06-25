@@ -1,0 +1,14 @@
+.item-count {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.item-count button {
+  background: #d46a6a;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
