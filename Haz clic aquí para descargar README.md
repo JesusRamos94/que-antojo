@@ -32,6 +32,28 @@ Este es un proyecto de una tienda online de postres dulces y salados, desarrolla
    http://localhost:5173
    ```
 
+## Funcionalidades
+
+- Lista de productos dulces y salados
+- Detalle de cada producto
+- Navegación entre páginas
+- Carrito para agregar y eliminar productos
+
+## Estructura Básica
+
+```
+src/
+├── components/
+├── pages/
+├── styles/
+├── data/
+├── App.jsx
+├── main.jsx
+└── index.scss
+```
+
 ## Autor
 
 Jesús Ramos  
+Estudiante de Desarrollo Frontend  
+[correo@ejemplo.com]
